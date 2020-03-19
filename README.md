@@ -38,4 +38,4 @@ Next, we will use the functions in __`build.py`__ to create our model.
 
 The model is then fit with the clean data we have obtained from __`preprocessing.py`__.
 
-Finally, the model is trained and outputs the evaluation metrics onto the command line. 
+Finally, the model is __trained and outputs the evaluation metrics__ onto the command line. 
