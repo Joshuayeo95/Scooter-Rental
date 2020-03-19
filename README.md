@@ -25,17 +25,17 @@ The training results and hyper-parameter tuning can be viewed in the __`modellin
 
 ## Selecting Model & Hyper Parameter Tuning 
 
-To change the model being trained, please go to `mlp\config.py` and change the `model_type`.
-Available options are: 'linear', 'lasso', 'ridge', 'rforest' and 'gboost'.
+To change the model being trained, please go to __`mlp\config.py`__ and change the __`model_type`__.
+__Available options are: 'linear', 'lasso', 'ridge', 'rforest' and 'gboost'.__
 
 Hyper parameters for the models have been set to the optimal parameters found during tuning and each hyper paramter for their respective models have been saved in a dictionary. However, if you wish to change the parameters, just edit the value within the key-value for the repective model hyper parameter dictionary.
 
 ## Pipeline
 
-Firstly, the data is ingested and cleaned using `preprocessing.py`. This will create `training_dataset.pickle` which is the dataset that has been cleaned and ready to use for model training.
+Firstly, the data is ingested and cleaned using __`preprocessing.py`__. This will create __`training_dataset.pickle`__ which is the dataset that has been cleaned and ready to use for model training.
 
-Next, we will use the functions in `build.py` to create our model. 
+Next, we will use the functions in __`build.py`__ to create our model. 
 
-The model is then fit with the clean data we have obtained from `preprocessing.py`.
+The model is then fit with the clean data we have obtained from __`preprocessing.py`__.
 
 Finally, the model is trained and outputs the evaluation metrics onto the command line. 
