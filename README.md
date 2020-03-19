@@ -21,7 +21,7 @@ The individual models were trained using __5-Fold cross validation__ on the trai
 
 The evaluation metric used to measure model performance is the __Root Mean Squared Error__ (RMSE). We chose RMSE as it penalises larger error as well as being in the same units of our target variable which makes it more intepretable.
 
-The training results and hyper-parameter tuning can be viewed in the 'modelling.ipynb' Jupyter Notebook.
+The training results and hyper-parameter tuning can be viewed in the __`modelling.ipynb`__ Jupyter Notebook.
 
 ## Selecting Model & Hyper Parameter Tuning 
 
